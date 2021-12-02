@@ -1,0 +1,29 @@
+.overlay {
+    height: 55vh;
+    width: 100%;
+    background-image: url("bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom -7rem;
+    background-position-x: -13.5rem;
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .overlay{
+        height: unset;
+        /* background-position: left 35%  center;
+        background-size: 330%, 100%; */ 
+        background-position: left -10rem bottom 20rem;
+        /* background-position: bottom; */
+        background-size: contain;
+
+        background-size: 160% 80%;
+    
+    
+    }
+    
+
+
+  }
+

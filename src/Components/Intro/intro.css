@@ -1,0 +1,30 @@
+.bg_svg{
+    width: 100%;
+    background-image: url("bg-pattern-intro.svg");
+    background-size: cover;
+    height: 0;
+    padding: 0; /* reset */
+    padding-bottom: 92%;
+    background-repeat: no-repeat;
+    background-position: left 25%  center;
+    background-size: 225%, 100%;
+    background-position-y: 70%;
+
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .bg_svg{
+        height: unset;
+        background-position: left 35%  center;
+        background-size: 330%, 100%;
+    
+    
+    }
+    
+
+
+  }
+  
+

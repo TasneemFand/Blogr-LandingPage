@@ -1,0 +1,56 @@
+.MuiBackdrop-root {
+    background-color: unset !important;
+}
+
+.MuiDrawer-paper {
+    height: auto !important;
+    top: 11% !important;
+    right: 15% !important;
+    width: 300px !important;
+    padding: 20px !important;
+    text-align: center;
+    border-radius: 6px !important;
+}
+
+
+.MuiIconButton-root {
+    color: unset!important;
+    padding: 0px !important;
+}
+
+.MuiIconButton-root:hover {
+    /* color: #83E7FF !important; */
+    background-color: unset !important;
+}
+
+
+.LoginNav {
+    text-transform: unset !important;
+    font-size: 16px !important;
+    color: #38383A !important;
+}
+
+.LoginNav:hover {
+    background-Color: unset !important; 
+    font-weight: 400 !important;
+
+}
+
+.SignNav {
+    text-transform: unset !important; font-size: 16px !important;
+    border-radius: 30px !important;
+    padding: 5px 18px !important;
+    color: #FFFEFA !important ;
+    margin-left: 15px !important;
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%)) !important;
+
+}
+
+.SignNav:hover {
+    background-color: unset !important;
+}
+
+
+
+
+
